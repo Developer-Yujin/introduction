@@ -1,0 +1,25 @@
+h4 {
+    margin: 0%;
+    
+    
+}
+
+h1{
+    background-color:aqua;
+    text-align : center;
+    margin: 20px;
+    animation: rotation 3s linear 1s 6 alternate;
+}
+@keyframes rotation{
+    from {transform: rotate(-10deg);}
+    to {transform: rotate(10deg);}
+}
+
+img{
+    width: 50%;
+     
+}
+
+div #target{
+    background-color: red;
+}
